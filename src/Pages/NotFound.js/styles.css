@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+}
+.container article h1{
+    font-size: 6rem;
+    text-align: center;
+}
+.container article h3{
+    font-size: 2rem;
+}
+.container article a{
+    display: flex;
+    background-color: #4169e1;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.listaFilmes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;   
+
+}
+.listaFilmes h1{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.listaFilmes ul{
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.listaFilmes ul li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px;
+
+}
+.listaFilmes div a{
+    text-decoration: none;
+    color: #116feb;
+    justify-content: center;
+    margin-right: 14px;
+    
+}
